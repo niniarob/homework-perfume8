@@ -1,0 +1,57 @@
+
+    @media screen and (max-width: 600px) {
+        .image-container #image2 {
+          display: none;
+        }
+      
+        .image-container #image1 {
+          display: block;
+        }
+      
+}
+      
+      @media screen and (min-width: 601px) {
+        .image-container #image2 {
+          display: block;
+          height: 418px;
+        }
+      
+        .image-container #image1 {
+          display: none;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: var(--Cream);
+        }
+        .box{
+            width: 600px;
+            height: 418px;
+            display: flex;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--PureWhite);
+        }
+        .perfume-card{
+            height: 360px;
+            width: 249px;
+            margin-left: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: auto;
+        }
+        .gabrielle{
+            width: 236px;
+        }
+        .button-box{
+            width: 236px;
+
+        }
+       .paragraph{
+        width: 237px;
+        
+       }
+    } 

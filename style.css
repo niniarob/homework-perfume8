@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces','Montserrat';
+ } 
+:root{
+    --AurometalSaurus:#6C7289;
+    --Gunmetal:#1C232B;
+    --DeepAquamarine:#3D8168;
+    --PureWhite:#FFFFFF;
+    --backgroundColor:#f2f2f2;
+    --Cream:#F2EAE2;
+}
+body{
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.image-container{
+        position: relative;
+}
+      
+.image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+}
+
+.container{
+    width: 390px;
+    height: 100vh;
+    background-color: var(--Cream);
+    display: grid;
+    place-items: center;
+    
+}
+.box{
+    width: 343px;
+    height: 611px;
+    border-radius: 10px;
+    background-color: var(--PureWhite);
+}
+.perfume-card{
+   
+    width: 290px;
+    margin-top: 24px ; 
+    margin-left: 24px;
+}
+.perfume-text{
+   width: 92px;
+   height: 15px;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 15px;
+   color: var(--AurometalSaurus);
+}
+.gabrielle{
+    width: 295px;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--Gunmetal);
+    padding-top: 12px;
+}
+.paragraph{
+    width: 295px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color:var(--AurometalSaurus);
+    padding-top: 16px;
+    font-style: Medium;
+}
+.num-box{
+    display: flex;
+    margin-top: 24px;
+}
+.new-price{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 23px;
+    color: var(--DeepAquamarine);
+}
+.old-price{
+    padding-top: 2px;
+    padding-left: 19px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: var(--AurometalSaurus);
+    text-decoration: line-through;
+}
+.button-box{
+   width: 295px;
+   height: 48px;
+   border-radius: 8px;
+   background-color: var(--DeepAquamarine); 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   margin-top:18px;
+}
+.margin-box{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.cart{
+    width: 14.39px;
+    height: 16px;
+}
+.add{
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   padding-left: 11.61px;
+   color: var(--PureWhite); 
+}
